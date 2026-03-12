@@ -169,7 +169,9 @@ Caso encontre **bugs**, tenha **sugestões de melhoria** ou queira implementar *
 # Desenvolvedores
 
 **Pedro Alvarenga** 
+
 **Rafaela** 
 
 ```
 ```
+
