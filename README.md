@@ -15,17 +15,11 @@ A proposta da plataforma é unir funcionalidades de catálogo digital, gestão a
 ## Leitor
 Usuário da plataforma focado na experiência de leitura. Pode explorar livros disponíveis no catálogo, visualizar detalhes das obras e acompanhar seus interesses dentro da plataforma.
 
-## Usuário
+## Publicador
 Conta base do sistema responsável pela autenticação e acesso à plataforma. Um usuário pode possuir diferentes permissões dependendo do papel associado a ele.
 
 ## Livro
 Representa os itens disponíveis no catálogo da livraria. Cada livro possui informações como título, autor, editora, gênero, sinopse, ISBN, número de páginas e ano de publicação.
-
-## Editora
-Representa a organização responsável pela publicação de livros. Cada editora pode possuir diversos livros cadastrados no sistema.
-
-## Role
-Define o nível de permissão e acesso dentro da plataforma. Permite diferenciar tipos de usuários, como administradores ou leitores, controlando quais funcionalidades cada perfil pode acessar.
 
 ---
 
@@ -34,23 +28,14 @@ Define o nível de permissão e acesso dentro da plataforma. Permite diferenciar
 ## Catálogo de Livros
 Visualização organizada do acervo de livros com informações detalhadas, incluindo capa, descrição e dados editoriais.
 
-## Busca Avançada
-Sistema de pesquisa que permite localizar livros por título, autor, editora ou gênero.
-
 ## Gerenciamento de Usuários
 Criação e administração de contas de usuários com controle de permissões baseado em roles.
-
-## Gestão de Editoras
-Cadastro e organização das editoras responsáveis pelas publicações presentes no sistema.
 
 ## Experiência do Leitor
 Permite que leitores explorem o catálogo de livros e encontrem novas obras de interesse.
 
 ## Controle de Acesso
 Sistema de permissões baseado em roles que garante acesso adequado às funcionalidades administrativas e de usuário comum.
-
-## Interface Responsiva
-Aplicação web adaptada para diferentes dispositivos, proporcionando uma navegação fluida em desktops, tablets e smartphones.
 
 ````markdown
 ## Tecnologias Utilizadas
