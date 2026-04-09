@@ -78,44 +78,10 @@ cd backend
 ./mvnw clean install   # ou ./gradlew build
 ```
 
-### 3. Instalar dependências do frontend
-
-```bash
-cd ../frontend
-npm install
+### 3. Dificuldades 
 ```
+relacionamentos em java
 
-### 4. Configurar variáveis de ambiente
-
-Crie o arquivo:
-
-```
-backend/src/main/resources/application.properties
-```
-
-```properties
-spring.datasource.url=jdbc:postgresql://localhost:5432/readingowl
-spring.datasource.username=seuuser
-spring.datasource.password=suapass
-spring.jpa.hibernate.ddl-auto=update
-
-jwt.secret=suasecret
-```
-
-### 5. Executar o projeto
-
-**Backend (terminal 1)**
-
-```bash
-cd backend
-./mvnw spring-boot:run
-```
-
-**Frontend (terminal 2)**
-
-```bash
-cd frontend
-npm start
 ```
 
 A aplicação poderá ser acessada em:
